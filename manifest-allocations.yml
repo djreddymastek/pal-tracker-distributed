@@ -8,8 +8,11 @@ applications:
   path: Applications/AllocationsServer/bin/Release/netcoreapp2.1/publish
   # env:
   #   REGISTRATION_SERVER_ENDPOINT: http://registration-pal-abi-dj.cfapps.io/
+  env:    
+    GRANT_TYPE: client_credentials
   services:
   - tracker-allocations-database
   - tracker-service-registry
   - tracker-circuit-breaker-dashboard
   - tracker-amqp
+  - tracker-sso
