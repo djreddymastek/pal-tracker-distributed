@@ -30,3 +30,7 @@ msbuild.wrn
 .vscode
 .gradle
 CI/variables.yml
+/.vs/PalTracker/v16/Server/sqlite3/db.lock
+/.vs/PalTracker/v16/Server/sqlite3/storage.ide
+/.vs/PalTracker/v16/Server/sqlite3/storage.ide-shm
+/.vs/PalTracker/v16/Server/sqlite3/storage.ide-wal
