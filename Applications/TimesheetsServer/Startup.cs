@@ -44,6 +44,7 @@ namespace TimesheetsServer
                 return new ProjectClient(httpClient, logger);
             });
             services.AddDiscoveryClient(Configuration);
+            services.AddHystrixMetricsStream(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
