@@ -6,7 +6,8 @@ applications:
   routes:
   - route: timesheets-pal-abi-dj.cfapps.io
   path: Applications/TimesheetsServer/bin/Release/netcoreapp2.1/publish
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-abi-dj.cfapps.io/
+  # env:
+  #   REGISTRATION_SERVER_ENDPOINT: http://registration-pal-abi-dj.cfapps.io/
   services:
   - tracker-timesheets-database
+  - tracker-service-registry
